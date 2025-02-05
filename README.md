@@ -13,7 +13,7 @@ https://storageaccountdemopre.blob.core.windows.net/?comp=list&sv=2022-11-02&ss=
 ### 1. List All Containers
 Use the SAS URL to list all containers in the storage account:
 ```bash
-curl -X GET "https://storageaccountdemopre.blob.core.windows.net/?comp=list&sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-28T21:40:59Z&st=2025-01-28T13:40:59Z&spr=https&sig=h2duBPllGCee29Y89vd%2FZxVxfeE8Gic4GVKv082au4Y%3D"
+https://storageaccountdemopre.blob.core.windows.net/?comp=list&sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-02-28T21:40:59Z&st=2025-01-28T13:40:59Z&spr=https&sig=h2duBPllGCee29Y89vd%2FZxVxfeE8Gic4GVKv082au4Y%3D
 ```
 
 ### 2. List Blobs in Container
